@@ -4,4 +4,4 @@ Durante a Expantions Week foram desenvolvidos temas relacionados a soft skills. 
 
 Este tema de extrema importância foi abordado e apresentado em forma de landing-page
 
-![Page screenshot](/home/anaesther/Pictures/heyDev.png)
+![Page screenshot](file:///home/anaesther/Pictures/heyDev.png)
