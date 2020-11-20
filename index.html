@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/2319757814.js" crossorigin="anonymous"></script>
+    <title>Empatia</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section id="home" class="landing">
+            <div class="landing-content" >
+                <h1 style="display: none"> Empatia no desenvolvimento web</h1>
+                <span id="page-title"> Hey DEV!</span>
+                <p>Pss... é, você mesmo!</p>
+                <p> Você sabe o que é <span>EMPATIA</span> e o que isso tem haver com desenvolvimento?</p>
+                <p><em>Não sabe? Então vem comigo e bora aprender!</em></p>
+            </div>
+                <figure>
+                    <img src="./imgs/accessibility2.png" alt="accessibility and internet">
+                </figure>
+            <a href="#empathy"><i class="fas fa-sort-down down-landing fa-5x"></i></a>
+            <a href="#home"><i class="fas fa-angle-up fa-3x"></i></a>
+            
+        </section>
+        <section class="empathy" id="empathy">
+            <div class="empathy content">
+                <h2 class="title-light">EMPATIA</h2>
+                <div class=" quotes">
+                    <p> <i class="fas fa-quote-left"></i> Ação de se colocar no lugar de outra pessoa, buscando agir ou pensar da forma como ela pensaria ou agiria nas mesmas circunstâncias. <i class="fas fa-quote-right"></i></p>
+                </div>
+                    <p>
+                        Como desenvolvemos aplicações para <i>pessoas</i> é essencial compreender como o usuário se sente quando interage com certo produto ou interface. Afinal, todo produto existe para <i>solucionar problemas</i> de alguém.
+                    </p>
+                    <p> E é aí também que entramos com o tema de <span>ACESSIBILIDADE</span>!</p>
+            
+                    <p> De acordo com o censo 2010 do IBGE, 24% da população brasileira se declara com algum tipo de deficiência.</p>
+                    <p> A distribuição é mostrada no gráfico abaixo:</p>
+                    <figure>
+                        <a href="https://educa.ibge.gov.br/jovens/conheca-o-brasil/populacao/20551-pessoas-com-deficiencia.html" target="_blank"><img src="./imgs/ibge-deficiencia.jpg" title="Porcentagem da população, por tipo e grau de dificulade e deficiência (Brasil - 2010)" alt="Porcentagem da população, por tipo e grau de dificulade e deficiência (Brasil - 2010) - Visual: 0,27% não consegue de modo algum, 3,18% tem grande dificuldade, 15,31% tem alguma dificuldade; Motora: 0,39% não consegue de modo algum, 1,94% tem grande dificuldade, 4,63% tem alguma dificuldade; Auditiva: 0,18% não consegue de modo algum, 0,94% tem grande dificuldade, 3,97% tem alguma dificuldade; Mental: 1,37% possui (Fonte: IBGE, Censo Demográfico 2010)"></a>
+                        
+                    </figure>
+                    <p>
+                        Podemos ver, que 18,8% da população apresentou dificuldade para <span class="disabilities">enxergar</span>; 7,0% tinha dificuldade em se <span class="disabilities">movimentar</span>; e 5,1% possuía dificuldade para <span class="disabilities">ouvir</span>. Grande parte dessas deficiências ou dificuldades interferem em como essas pessoas interagem com o meio digital.
+                    </p>
+
+                    <p id="question"> 
+                          E o que você tem haver com isso<i class="fas fa-question" id="question-mark"></i> <br> Bem... vamos começar com um exemplo simples. 
+                    </p>
+
+                    <p>
+                        Recentemente, Jessica Kellgren-Fozart, uma youtuber e influencer inglesa, relatou em seu <a href="https://www.instagram.com/p/CHJNF40piVk/" id="jessica">instagram</a> como a falta de acessibidade a impede de navegar e a fazer compras online, o que é dado, às vezes, pela falta <span>alt texts</span> e <span>labels</span>. Jessica possui diversas deficiências, que incluem <span class="disabilities">deficiência visual e motora</span>. A youtuber nota outras coisas simples, como a ausência de <span>fotos de modelos sentadas</span> em lojas online (afinal, como ela irá saber como a roupa ficará em sua cadeira de rodas?) <br>
+                        Ela ainda menciona que o poder aquisitivo de pessoas com deficiêcia, apenas na Inglaterra, soma <strong>£274 bilhões</strong> (quase 2 trilhões de reais!)</p>
+                        <figure>
+                            <img src="./imgs/wow.gif" alt="wow face gif" id="wow">
+                        </figure>
+                    <p>
+                        Isso mostra que investir em acessibidade pode ser decisivo para a satisfazer a necessidade de um público com <span class="money">poder aquisitivo</span>.
+                    </p>
+                    <a href="#acessibility"><i class="fas fa-sort-down down-empathy fa-7x"></i></a>
+                </div>
+                
+        </section>
+        <section id="acessibility" class="dark-section">
+            <div id="acessibility-content">
+                <h2 class="title-dark">Construindo meu site/aplicação acessível</h2>
+                <div id="intro-access">
+                    <figure>
+                        <img src="./imgs/tech-geek.gif" alt="computer gif">
+                    </figure>
+                    <p id="got-it">
+                        Beleza Ana, eu entendi a importância disso, mas como posso aplicar?
+                    </p>
+                </div>
+                
+                <div class="accessibility-tools">
+                    <p>O uso de algumas <span>ferramentas básicas</span> podem ajudar a incluir diversas pessoas. A tabela abaixo apresenta algumas soluções e seus respectivos objetivos.</p>
+                </div>
+                <table class="table table-striped table-hover table-dark">
+                    <tr>
+                        <th>Ferramenta</th>
+                        <th>Objetivo</th>
+                    </tr>
+                    <tr>
+                        <td>
+                           Tags semânticas  
+                        </td>
+                        <td>
+                            Tags semânticas carregam o propósito do elemento (ex: header, nav, footer, article...).<br>
+                            Assim, ajudam pessoas que fazem uso de <em class="disabilities">screen readers</em> a entenderem melhor o contexto.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Alt text e labels
+                        </td>
+                        <td>
+                            Alt texts e labels, assim como as tags semânticas, ajudam o usuário com <em class="disabilities">deficiência visual</em> a entender do que se trata a imagem e/ou formulário. Eles devem ser descritivos.
+                            <br><br>
+                            <strong>OBS:</strong> O conteúdo principal deve ser carregado nos textos, e não nas imagens, elas devem ser utilizadas somente para fins decorativos. 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Legenda (ou closed captions) em vídeos
+                        </td>
+                        <td>
+                            Legendas são essenciais para a compreenção do conteúdo para aqueles com <em class="disabilities">deficiêcia auditiva</em>.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Contraste de cores
+                        </td>
+                       <td>
+                            A distinção de cores é algo complicado para <em class="disabilities">daltônicos</em>, portanto, o contraste é essêncial.<br>
+                            Além disso, um baixo contraste dificulta a leitura para <em class="disabilities">qualquer pessoa</em>, o que é amplificado na exposição de luz extrema.<br><br>
+                            Porém, lembre-se, que assim como as imagens, cores devem ser usadas com cautela e não devem carregar nenhum significado que seja essencial para o entendimento do conteúdo.
+                       </td> 
+                    </tr>
+                    <tr>
+                        <td>
+                            Tamanho de fonte/botões
+                        </td>
+                        <td>
+                            Desenvolva sua aplicação como se fosse para a sua querida avozinha entender o que está escrito (ou pelo menos dê a opção de aumentar o tamanho da fonte).
+                            <br> <br>Além disso, botões pequenos são um problema para pessoas com <em class="disabilities">deficiência motora</em>.
+                        </td>
+                    </tr>
+                </table>
+                <div class="accessibility-tools" id="last-tools">
+                    <p >Essas são algumas ferramentas básicas que melhoram bastante a <span>experiência do usuário</span>. Grandes empresas então cada vez mais se preocupando com questões de acessibilidade. A <img src="https://img.icons8.com/color/25/000000/google-logo.png" alt="google logo"/><strong style="color: #FFC539;">OOGLE</strong>, por exemplo, sempre utiliza tais conceitos em suas aplicações, além de possuir ferramentos para o auxílio de desenvolvedores, como o <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.auditor&hl=en">Accessibility Scanner</a>.</p>
+                    <a href="#extras"><i class="fas fa-sort-down down-extra fa-7x"></i></a>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="extras">
+            <h2 class="title-light extras"> Ferramentas Extras</h2>
+
+            <div class="accessibility-tools">
+                <p>
+                    Além do <em>Accessibility Scanner</em>, existem outras ferramentas que auxiliam na contrução de aplicações mais empáticas.
+                </p>
+                <p>
+                    O <a href="https://wave.webaim.org/">Wave</a>, por exemplo, é um website em que avalia o quão acessível o site é, retornando uma espécie de relatório.
+                </p>
+                <figure class="fun-tools">
+                    <img src="./imgs/wave.png" alt="screenshot from wave website">
+                </figure>
+                <p>
+                    Por último, temos o <a href="https://www.funkify.org/simulators/?v=f003c44deab6">Funkify</a>, uma extensão que permite nos colocarmos no lugar de pessoas com deficiência, simulando um pouco da experiência delas.
+                </p>
+                <figure class="fun-tools">
+                    <img src="./imgs/Funkify.png" alt="funkify extention screenshot">
+                </figure>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div id="footer-content">
+            <figure>
+                <img id="selfie" src="./imgs/ana-photo.jpg" alt="Editor's photograph">
+            </figure>
+            <div id="about-me">
+                <p>
+                    Olá! Meu nome é Ana Esther e sou aluna do 🚀GoStack! 
+                </p>
+                <p>
+                    Sou formada em Engenharia de Materiais, porém à menos de dois meses decidi migrar de área e comecei a estudar desenvolvimento web e mobile por conta própria, até conhecer <em>RocketSeat</em> maravilhosa e me tornar sua aluna! <strong> Estou definivamente amando essa experiência!!!</strong>
+                </p>
+                <p>
+                    
+                    Espero que você tenho gostado do conteúdo! Caso tenha algum comentário, dúvida ou queira entrar em contato por outro motivo, segue meus contatos:
+                </p>
+                <div class="icons">
+                    <a href="https://www.linkedin.com/in/ana-esther-amaral/"><img src="./imgs/LI-In-Bug.png" alt="LinkedIn-icon" class="linkedIn-icon"></a>
+                    <a href="https://github.com/anaestheramaral"><img src="./imgs/GitHub-Mark-32px.png" alt="github-icon"></i></a>
+                    <a href="mailto:anaestheramaral@gmail.com&subject:Contact me - website"><img src="./imgs/gmail-icon.png" alt="gmail-icon"></a>
+                </div>
+                <p>P.S.: se por um acaso, faltou mais acessibilidade nesta página, mil perdões, e me informe em como posso melhorar.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
